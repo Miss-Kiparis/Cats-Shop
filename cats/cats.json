@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Fluffy", 
+    "price": "15.99",
+    "image": "http://placekitten.com/200/300", 
+    "id": "1234", 
+    "color": "gray"
+  },
+  {
+    "name": "Mittens", 
+    "price": "19.99",
+    "image": "http://placekitten.com/300/200", 
+    "id": "2345", 
+    "color": "white"
+  },
+  {
+    "name": "Whiskers", 
+    "price": "12.99",
+    "image": "http://placekitten.com/250/350", 
+    "id": "3456", 
+    "color": "black"
+  },
+  {
+    "name": "Tiger", 
+    "price": "24.99",
+    "image": "http://placekitten.com/450/350", 
+    "id": "4567", 
+    "color": "orange"
+  },
+  {
+    "name": "Socks", 
+    "price": "11.99",
+    "image": "http://placekitten.com/250/400", 
+    "id": "5678", 
+    "color": "gray"
+  },
+  {
+    "name": "Snowball", 
+    "price": "16.99",
+    "image": "http://placekitten.com/350/260", 
+    "id": "6789", 
+    "color": "white"
+  },
+  {
+    "name": "Felix", 
+    "price": "20.99",
+    "image": "http://placekitten.com/400/250", 
+    "id": "7890", 
+    "color": "black"
+  },
+  {
+    "name": "Leo", 
+    "price": "14.99",
+    "image": "http://placekitten.com/500/350", 
+    "id": "8901", 
+    "color": "orange"
+  },
+  {
+    "name": "Smokey", 
+    "price": "17.99",
+    "image": "http://placekitten.com/550/450", 
+    "id": "9012", 
+    "color": "gray"
+  },
+  {
+    "name": "Misty", 
+    "price": "13.99",
+    "image": "http://placekitten.com/380/400", 
+    "id": "1235", 
+    "color": "white"
+  }
+]
