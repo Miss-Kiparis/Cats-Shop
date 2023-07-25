@@ -32,3 +32,4 @@ export const actionFetchData = () => (dispatch) => {
     dispatch(actionCatsData(cats));
   });
 };
+
