@@ -1,0 +1,104 @@
+.cart-page {
+    margin: 35px auto;
+    padding: 0 15px;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 100vh;
+
+}
+
+.cart-page__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;}
+
+.cart-page__header--title {
+    font-size: 32px;
+    padding-left: 15px;
+    font-weight: 700;
+    color: #393131;
+    text-decoration:underline;
+    display: inline-block;
+}
+.cart-page__content {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.cart-page__content--list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: start;
+    margin: 0 auto;
+    padding: 0 120px;
+    gap: 50px;
+}
+.cat__card {
+    justify-content: center;
+}
+
+.cats__cartpic {
+     margin: 10px 0 20px;
+}
+
+
+
+.btn__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.card__remove {
+    margin-left: 180px;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border: solid #fff 1px;
+    border-radius: 15px;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.4s;
+}
+
+.card__remove:hover {
+    background-color: #dad9d9;
+    border: solid #dad9d9 1px;
+    box-shadow: 
+    inset 0 0 0 5px #e4341a;
+    color: #e4341a;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 2em;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+
+  .catsCartList {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+  }
+
+  .catsCartCard {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid blue;
+  }

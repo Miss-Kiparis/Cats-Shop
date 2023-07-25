@@ -1,0 +1,71 @@
+
+.cart__btn {
+    padding: 15px 20px;
+    background: #fff;
+    text-transform: capitalize;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+    border: none;
+    border-radius: 50px;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+   }
+   
+   .cart__btn:hover {
+    box-shadow:  inset 0 0 0 3px #ffd166;
+    background: #ffd166;
+    color: #fff;
+   }
+
+// using in Modal.js
+.btn__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.btn__good {
+    padding: 15px 20px;
+    background: #fff;
+    text-transform: capitalize;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+    border: none;
+    border-radius: 50px;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+
+        &:hover {
+            box-shadow: 
+            
+            inset 0 0 0 10px #3fd476;
+            color: #3fd476;
+    }
+}
+
+.btn__bad {
+    padding: 15px 20px;
+    background: #fff;
+    text-transform: capitalize;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+    border: none;
+    border-radius: 50px;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+
+        &:hover {
+            box-shadow: 
+            
+            inset 0 0 0 10px #e4341a;
+            color: #e4341a;
+    }
+}

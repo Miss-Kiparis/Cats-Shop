@@ -1,0 +1,35 @@
+.catList__title {
+    font-size: 32px;
+    padding-left: 15px;
+    font-weight: 700;
+    color: #393131;
+    text-decoration:underline;
+    margin: 46.5px 0px;
+    padding: 0 50px 0 85px;
+
+}
+
+.catList__container {
+    margin: 46.5px 0px;
+    padding: 0 50px 0 85px;
+}
+
+.catList__switcher {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+
+}
+
+// if failed -> show:
+.error__load--state {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin: 120px;
+    padding: 50px;
+
+
+}

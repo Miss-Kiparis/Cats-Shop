@@ -1,0 +1,80 @@
+.empty__wishlist--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.fav-page {
+    margin: 35px auto;
+    padding: 0 15px;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 100vh;
+
+}
+
+.fav-page__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;  
+}
+
+.fav-page__header--title {
+    font-size: 32px;
+    padding-left: 15px;
+    font-weight: 700;
+    color: #393131;
+    text-decoration:underline;
+}
+
+.cat__card {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    width: 350px;
+    height: 550px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  
+
+}
+
+
+.cart-page__content--list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: start;
+    margin: 0 auto;
+    padding: 0 120px;
+    gap: 50px;
+}
+
+.cats__favpic {
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    padding: 15px 10px;
+    margin: 10px 0 40px;
+
+}
+
+.svg__favstar {
+    margin-left: 240px;
+    margin-bottom: 10px;
+    width: 35px;
+    height: 35px;
+    stroke:  black;
+    cursor: pointer;
+    &:hover {
+        stroke: #ffc107;
+    }
+}

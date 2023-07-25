@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="overlay"
+  data-testid="modal"
+  onClick={[Function]}
+>
+  <div
+    className="modal__styles"
+  >
+    <div
+      className="modal__content"
+    >
+      <h2
+        className="modal__title"
+      >
+        mock title
+      </h2>
+      <p
+        className="modal__text"
+      >
+        mock text
+      </p>
+      <div
+        className="btn__container"
+      >
+        <button
+          className="  btn__good"
+          data-testid="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Add to cart
+        </button>
+        <button
+          className="  btn__bad"
+          data-testid="btn"
+          onClick={[MockFunction]}
+          type="button"
+        >
+          Cancel
+        </button>
+      </div>
+      <button
+        className="modal__close"
+        onClick={[MockFunction]}
+      >
+        X
+      </button>
+    </div>
+  </div>
+</div>
+`;

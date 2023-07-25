@@ -1,0 +1,56 @@
+.form__checkout {
+    width: 650px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    background-color: #e0e0e0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  
+}
+
+.form__label {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    color: #000;
+  
+}
+
+input {
+    outline: none;
+    border: 1px solid #e5e7eb;
+    padding: 15px;
+  
+    background-color: #fff;
+ 
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  
+}
+
+.btn__submit {
+    display: block;
+    margin-top: 20px;
+    padding-top: 0.50rem;
+    padding-bottom: 0.50rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #4F46E5;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  .error__text {
+    color: rgb(235, 45, 45);
+    margin: 0;
+    font-style: italic;
+  }
