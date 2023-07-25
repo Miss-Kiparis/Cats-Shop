@@ -27,9 +27,8 @@ export const actionActiveCart = createAction("ACTION_ACTIVE_CART");
 
 export const actionFetchData = () => (dispatch) => {
   dispatch(actionLoader(false));
-  sendRequest("/Cats-Shop/cats/cats.json").then((cats) => {
+  sendRequest("./Cats-Shop/cats/cats.json").then((cats) => {
     dispatch(actionLoader(true));
     dispatch(actionCatsData(cats));
   });
 };
-
