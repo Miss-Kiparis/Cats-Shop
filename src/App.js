@@ -37,20 +37,17 @@ function App() {
 
   const [viewList, setViewList] = useState(listStorageHandler);
 
-  useEffect(
-    () => () => {
-      console.log("useEffect started, gonna run dispatch(actionFetchData())");
-      dispatch(actionFetchData());
+  useEffect(() => {
+    console.log("useEffect started, gonna run dispatch(actionFetchData())");
+    dispatch(actionFetchData());
 
-      if (cartStorageHandler) {
-        dispatch(actionUpdateShoppingCart(cartStorageHandler));
-      }
-      if (favStorageHandler) {
-        dispatch(actionUpdatedFavorite(favStorageHandler));
-      }
-    },
-    []
-  );
+    if (cartStorageHandler) {
+      dispatch(actionUpdateShoppingCart(cartStorageHandler));
+    }
+    if (favStorageHandler) {
+      dispatch(actionUpdatedFavorite(favStorageHandler));
+    }
+  }, []);
 
   const cartListHandler = () => (item) => {
     const isProduct = cartList.find((data) => data === item);
