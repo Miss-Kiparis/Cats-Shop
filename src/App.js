@@ -26,8 +26,6 @@ import {
 } from "./store/selectors";
 
 function App() {
-  console.log("useEffect started, gonna run dispatch(actionFetchData())");
-
   const dispatch = useDispatch();
   const cats = useSelector(selectCatsData);
   const favList = useSelector(selectFavorite);
@@ -41,6 +39,7 @@ function App() {
 
   useEffect(
     () => () => {
+      console.log("useEffect started, gonna run dispatch(actionFetchData())");
       dispatch(actionFetchData());
 
       if (cartStorageHandler) {
