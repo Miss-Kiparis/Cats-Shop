@@ -22,6 +22,8 @@ function CatList(props) {
   const { cats } = props;
   const { viewList } = useContext(ViewListContext);
 
+  console.log("CatList started", "cats from props received:", cats);
+
   const dispatch = useDispatch();
   const modalToggle = useSelector(selectModal);
   const loader = useSelector(selectLoader);

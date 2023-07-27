@@ -26,6 +26,8 @@ export const actionCatsData = createAction("ACTION_CATS_DATA");
 export const actionActiveCart = createAction("ACTION_ACTIVE_CART");
 
 export const actionFetchData = () => (dispatch) => {
+  console.log("actionFetchData started");
+
   dispatch(actionLoader(false));
   sendRequest("./Cats-Shop/cats/cats.json").then((cats) => {
     dispatch(actionLoader(true));

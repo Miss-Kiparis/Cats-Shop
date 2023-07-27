@@ -26,6 +26,8 @@ import {
 } from "./store/selectors";
 
 function App() {
+  console.log("useEffect started, gonna run dispatch(actionFetchData())");
+
   const dispatch = useDispatch();
   const cats = useSelector(selectCatsData);
   const favList = useSelector(selectFavorite);
