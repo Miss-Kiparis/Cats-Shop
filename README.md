@@ -1,6 +1,7 @@
 # React-based Cats Shop
 
 <Link>  https://miss-kiparis.github.io/Cats-Shop/
+
 Магазин наймиліших котиків, зроблений цілковито на Реакті. 
 До списку використаних технологій також відноситься:
 - React
